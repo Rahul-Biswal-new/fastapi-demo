@@ -1,0 +1,5 @@
+python -m install fatapi 
+pip install uvicorn
+
+
+ uvicorn myapi:app  --reload
